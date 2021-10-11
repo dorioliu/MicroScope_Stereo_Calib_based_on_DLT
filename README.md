@@ -3,9 +3,8 @@
  	* This is an implementation of DLT based camera calibration with Eigen  
  	*  
  	* General,we describe a imaging system of pinhole model as:  
- 	*             sp = K[R|t]P   (1)  
-  *
-  * s is depth scale coefficient, lower case p     
+ 	*             sp = K[R|t]P (1)  
+     s is depth scale coefficient, lower case p     
  	* represents 2d image point (u,v,1), upper P is a space 3d  
  	* point (X,Y,Z,1)  in world coordinate.    
  	*  
