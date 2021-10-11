@@ -1,11 +1,11 @@
 # MicroScope_Stereo_Calib_based_on_DLT
- /*********\n
- 	* This is an implementation of DLT based camera calibration with Eigen\n
+ /*********  
+ 	* This is an implementation of DLT based camera calibration with Eigen  
  	*\n
- 	* General,we describe a imaging system of pinhole model as:\n
- 	* sp = K[R|t]P, s is depth scale coefficient, lower case p\n
- 	* represents 2d image point (u,v,1), upper P is a space 3d\n
- 	* point (X,Y,Z,1)  in world coordinate.\n
+ 	* General,we describe a imaging system of pinhole model as:  
+ 	* sp = K[R|t]P, s is depth scale coefficient, lower case p  
+ 	* represents 2d image point (u,v,1), upper P is a space 3d  
+ 	* point (X,Y,Z,1)  in world coordinate.  
  	*
  	* usually, in rigid transformation, we descibe a rigid motion
  	* from P1(X1,Y1,Z1) to P2(X2,Y2,Z2) with rotation transformation
