@@ -1,6 +1,6 @@
 # MicroScope_Stereo_Calib_based_on_DLT
- /*********  
- 	* This is an implementation of DLT based camera calibration with Eigen  
+  
+ 	## This is an implementation of DLT based camera calibration with Eigen  
  	*  
  	* General,we describe a imaging system of pinhole model as:  
  	*             sp = K[R|t]P (1)  
@@ -75,5 +75,3 @@
  	* so  we can make a samll trick H^-1 = R^-1 * K^-1 = QR  
  	* than we get rotation matrix R = Q^-1, and get K = R^-1  
  	* finnally we devide K by K(2,3) to get a normalized K.  
- 	*  
-**********/  
